@@ -1,3 +1,42 @@
+/*Lateral menu
+*********************************************************************************************/
+.dp-icon-dropplets:before{
+    content: "\22" !important;
+}
+
+
+.dp-icon-drop:before{
+    content: "\64" !important;
+}
+
+#lateral-img{
+    border-radius: 50%;
+    max-height: 128px;
+    padding: 5px;
+    background-color: #ecf0f1;
+    display: block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+#description{
+    padding: 0px 0px 10px 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202020;
+    text-rendering: optimizeLegibility;
+
+}
+
+.drop-row{
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
 /* Normalization
 *********************************************************************************************/
 
@@ -402,4 +441,9 @@ ul.actions li {
 
 #head-txt {
 	margin: 20px 0px 10px 0px;
+}
+
+.thumbnail {
+	width: 128px;
+	height: 128px;
 }
