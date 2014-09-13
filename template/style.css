@@ -23,8 +23,8 @@
 
 #description{
     padding: 0px 0px 10px 20px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-family: 'RobotoDraft', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     line-height: 24px;
     color: #202020;
@@ -48,10 +48,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
 	background: #ffffff;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 32px;
+	font-family: 'RobotoDraft', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
 	color: #202020;
 	text-rendering: optimizeLegibility;
 }
@@ -60,9 +60,9 @@ body {
 *********************************************************************************************/
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 800;
+    font-weight: 500;
 	color: #303030;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	max-width: 90%;
 }
 

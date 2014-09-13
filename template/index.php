@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="<?php echo($template_dir_url); ?>style.css">
         <link rel="stylesheet" href="<?php echo($template_dir_url); ?>subdiv.css">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+		<link href="//fonts.googleapis.com/css?family=RobotoDraft:300,400,500|Source+Code+Pro:400,500,700" rel="stylesheet">
         
         <?php get_header(); ?>
     </head>
