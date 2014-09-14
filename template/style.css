@@ -52,7 +52,7 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 30px;
-	color: #202020;
+	color: #2d2d2d;
 	text-rendering: optimizeLegibility;
 }
 
@@ -160,7 +160,6 @@ article.single {
 }
 
 .post p a,
-.post ul a,
 .post ol a {
     border-bottom: 1px solid #ebebeb;
 }
@@ -180,7 +179,7 @@ article.single {
 
 .button {
     background-color: #fbfbfb;
-    border: 1px solid #ebebeb;
+    border: 1px solid #ddd;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -226,7 +225,7 @@ ul.actions li {
     font-size: 14px;
     line-height: 19px;
     font-weight: 300;
-    color: #b3b3b1;
+    color: #26ae60;
     text-align: right;
 }
 
@@ -272,11 +271,11 @@ ul.actions li {
 }
 
 .meta a {
-    color: #b3b3b1;
+    color: #1d8449;
 }
 
 .meta a:hover {
-    color: #303030;
+    color: #000000;
 }
 
 .thumbnail {
@@ -446,4 +445,12 @@ ul.actions li {
 .thumbnail {
 	width: 128px;
 	height: 128px;
+}
+
+p a{
+	color: #229955;
+}
+
+a{
+	color: #19703e;
 }
