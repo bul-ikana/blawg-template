@@ -6,16 +6,16 @@
             </div>
 
             <ul>
-                <li>Written by <?php echo($post_author); ?></li>
-                <li><?php echo($published_date); ?></li>
+                <li>Written by <span itemprop="author"> <?php echo($post_author); ?> </span> </li>
+                <li> <span itemprop="datePublished"> <?php echo($published_date); ?> </span> </li>
                 <li>About <a href="<?php echo($post_category_link); ?>"><?php echo($post_category); ?></a></li>
                 <li></li>
             </ul>
         </div>
 
         <div class="three-quarters post">
-            <h2><?php echo($post_title); ?></h2>
-            <?php echo($post_content); ?>
+            <h2 itemprop="name"> <?php echo($post_title); ?> </h2>
+            <div itemprop="articleBody"> <?php echo($post_content); ?> </div>
 
             <ul class="actions">
                 <li><a class="button" href="https://twitter.com/intent/tweet?screen_name=<?php echo($post_author_twitter); ?>&text=Re:%20<?php echo($post_link); ?>%20" data-dnt="true">Comment on Twitter</a></li>
